@@ -1,0 +1,371 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f2ec;
+}
+
+@media only screen and (max-device-width: 720px) and (orientation: portrait) {
+  .parallax-1 {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+  }
+
+  .topnav a {
+    padding: 12px 14px !important;
+    text-decoration: none;
+    font-size: 14px !important;
+  }
+
+  #moben {
+    padding: 0px 14px !important;
+    font-size: 14px !important;
+  }
+
+  #header1 {
+    padding-top: 20px !important;
+    font-size: 20px !important;
+  }
+
+  #header2 {
+    font-size: 15px !important;
+    padding-bottom: 5px;
+  }
+
+  .button {
+    padding: 8px 16px !important;
+    font-size: 12px !important;
+  }
+
+  #header3 {
+    font-size: 30px !important;
+  }
+
+  #text {
+    width: 90% !important;
+  }
+
+  #back2 {
+    background-color: #79253d;
+    padding: px !important;
+  }
+
+  .img {
+    width: 90% !important;
+  }
+}
+
+.topnav {
+  padding-bottom: 0;
+  overflow: hidden;
+  background-color: #eb8f16;
+
+  
+}
+
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+  font-size: 22px;
+  
+
+}
+
+.topnav a:hover {
+  background-color: rgb(143, 51, 51);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000302;
+  color: rgb(185, 0, 0);
+}
+
+
+#zktitle {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 22px;
+  font-weight: 950;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#forus {
+  font-weight: 900;
+}
+
+#contacts {
+  font-weight: 900;
+}
+
+#products{
+  font-weight: 900;
+}
+
+#landheader1 {
+  padding-top: 10vw;
+  z-index: 2;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 100px;
+  margin-top: 0;
+  font-weight: 900;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+}
+
+#landheader2 {
+  z-index: 2;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow:
+  3px 3px 0 #000,
+-1px -1px 0 #000,  
+ 1px -1px 0 #000,
+ -1px 1px 0 #000,
+  1px 1px 0 #000;
+
+}
+
+#landheader3 {
+  z-index: 2;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: 900;
+  text-shadow:
+  3px 3px 0 #000,
+-1px -1px 0 #000,  
+ 1px -1px 0 #000,
+ -1px 1px 0 #000,
+  1px 1px 0 #000;
+
+}
+
+#header4 {
+  z-index: 2;
+  text-align: center;
+  color: #79253d;
+  font-size: 50px;
+}
+
+#header5 {
+  z-index: 2;
+  text-align: center;
+  color: #79253d;
+  font-size: 30px;
+}
+
+.center {
+  z-index: 2;
+  text-align: center;
+}
+
+
+
+.parallax-1 {
+  width: 100%;
+  height: 45vw;
+  background-image: url(im/land3.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-color: #f4f2ec;
+}
+
+.button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  
+}
+
+.button1 {
+  background-color: rgb(53, 206, 61);
+  color: rgb(0, 0, 0);
+  border: 2px solid #4caf50;
+}
+
+.button1:hover {
+  background-color: #047007;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#LearnMore {
+  background-color: #000000;
+  padding: 15px;
+}
+
+#header3 {
+  z-index: 2;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+
+
+
+.LearnRow {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.LearnCol {
+margin-left: 50px;
+}
+
+.us.img {
+float: left;
+}
+
+.LearnCol2 {
+  width: 50%;
+
+padding-left: 0px;
+padding-right: 0px;
+}
+
+
+
+
+#text {
+  color: whitesmoke;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.3;
+}
+
+
+#foot {
+  background-color: rgb(75, 75, 75);
+  text-align: center;
+}
+
+#contact {
+  display:block;
+  width: 100%;
+  padding: 16px 32px;
+  background-color: #79253d;
+  text-align: center;
+  color: whitesmoke;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+.row2 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column2 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column2 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
