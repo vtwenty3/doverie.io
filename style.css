@@ -190,7 +190,7 @@ body {
 .parallax-1 {
   width: 100%;
   height: 45vw;
-  background-image: url(im/land3.jpg);
+  background-image: url(land3.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
