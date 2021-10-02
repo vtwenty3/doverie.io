@@ -11,7 +11,8 @@ html {
 
 body {
   margin: 0;
-  background-color: #f4f2ec;
+  padding: 0;
+  background-color: #eb8f16;
 }
 
 @media only screen and (max-device-width: 720px) and (orientation: portrait) {
@@ -238,10 +239,7 @@ body {
   width: 50%;
 }
 
-#LearnMore {
-  background-color: #000000;
-  padding: 15px;
-}
+
 
 #header3 {
   z-index: 2;
@@ -251,27 +249,76 @@ body {
 }
 
 
-
-
-.LearnRow {
-  display: flex;
+#usHeader {
+  z-index: 2;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
 }
 
-/* Create three equal columns that sits next to each other */
-.LearnCol {
-margin-left: 50px;
+.bullet {
+  overflow: hidden;
+  position: relative;
+  display: inline-flex;
+  padding-left: 60px;
+  padding-right: 70px;
+  width: 100%;
+  background-color: #000000;
+
+}
+ .bullet h4{
+margin:10px;
+font-size: 24pt;
+font-weight: 510;
 }
 
-.us.img {
-float: left;
+#imgs {
+  width: 450px;
+  float: left;
+  margin: 0px 30px 30px 30px;
 }
 
-.LearnCol2 {
-  width: 50%;
-
-padding-left: 0px;
-padding-right: 0px;
+#map
+{
+  float:left;
 }
+
+#text {
+  display: inline;  
+}
+
+
+.contact {
+justify-content: center;
+  overflow: hidden;
+  position: relative;
+  display: inline-flex;
+  padding-left: 60px;
+  padding-right: 70px;
+  width: 100%;
+  background-color: #1a5e1d;
+ 
+}
+
+#contactsHeader {
+  z-index: 2;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+.contactText {
+  display: inline;
+  text-align: center;
+  margin-left: 100px;
+  color: whitesmoke;
+}
+
+
+
+
+
+
 
 
 
@@ -287,18 +334,11 @@ padding-right: 0px;
 
 
 #foot {
-  background-color: rgb(75, 75, 75);
   text-align: center;
+  font-size: 10px;
 }
 
-#contact {
-  display:block;
-  width: 100%;
-  padding: 16px 32px;
-  background-color: #79253d;
-  text-align: center;
-  color: whitesmoke;
-}
+
 
 
 .row {
